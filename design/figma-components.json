@@ -1,0 +1,79 @@
+{
+  "fileName": "WeBoost Campaign Dashboard Template",
+  "frameSize": { "width": 1440, "height": 1024 },
+  "components": [
+  {
+    "name": "App Shell",
+    "structure": "Sidebar (220px) + Main content (1220px)",
+    "sidebar": {
+      "background": "#0A0A0A",
+      "logo": "WB_white.svg",
+      "logoPadding": "28px 24px",
+      "navItems": ["Overview", "Channels", "Engagement", "Portals", "Funnel", "Recs"]
+    }
+  },
+  {
+    "name": "Nav Button",
+    "variants": ["default", "active"],
+    "default": { "color": "#888888", "borderLeft": "2px transparent" },
+    "active": { "color": "#FFFFFF", "borderLeft": "2px #FFFFFF" }
+  },
+  {
+    "name": "KPI Card",
+    "size": "flex 1/3 grid",
+    "background": "#1A1A1A",
+    "border": "1px #FFFFFF14",
+    "radius": 10,
+    "label": "Roboto 11px uppercase #ABB8C3",
+    "value": "Bebas Neue 44px #FFFFFF"
+  },
+  {
+    "name": "Chart Card",
+    "height": 280,
+    "note": "Two side-by-side on Channels page: Eksponeringer + Klik"
+  },
+  {
+    "name": "Funnel Step",
+    "elements": ["step number circle", "label", "value"],
+    "arrow": "32px cyan ↓ between steps",
+    "taper": "Each step 8% narrower than previous"
+  },
+  {
+    "name": "Callout",
+    "borderLeft": "3px accent color",
+    "background": "#1A1A1A"
+  }
+  ],
+  "pages": [
+    {
+      "id": "overview",
+      "title": "HVOR STÅR VI?",
+      "content": ["6 KPI cards in 2x3 grid", "Status callout (cyan border)", "Konklusion callout (orange border)"]
+    },
+    {
+      "id": "channels",
+      "title": "BLIVER HOLMBLADSHUS SET?",
+      "content": ["Two bar charts side by side", "Channel data table", "4 channel note cards", "Vurdering callout"]
+    },
+    {
+      "id": "engagement",
+      "title": "ER DER REEL INTERESSE — ELLER BARE KLIK?",
+      "content": ["40% ring chart (green)", "Description text", "Indsigt callout"]
+    },
+    {
+      "id": "portals",
+      "title": "INTERESSEN SES OGSÅ UDEN FOR KAMPAGNERNE",
+      "content": ["Lokalebasen table", "Ejendomstorvet table", "RED.dk table"]
+    },
+    {
+      "id": "funnel",
+      "title": "DET SAMLEDE BILLEDE",
+      "content": ["6-step vertical funnel with arrows", "Udfordringen callout"]
+    },
+    {
+      "id": "recommendations",
+      "title": "NÆSTE SKRIDT",
+      "content": ["5 numbered recommendations", "Work model flow", "Næste fase callout"]
+    }
+  ]
+}

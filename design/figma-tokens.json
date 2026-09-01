@@ -1,0 +1,87 @@
+{
+  "name": "WeBoost Campaign Dashboard",
+  "description": "Import via Tokens Studio for Figma, or copy values manually into Figma styles.",
+  "colors": {
+    "bg/primary": { "value": "#000000", "type": "color" },
+    "bg/elevated": { "value": "#1A1A1A", "type": "color" },
+    "bg/sidebar": { "value": "#0A0A0A", "type": "color" },
+    "text/primary": { "value": "#FFFFFF", "type": "color" },
+    "text/secondary": { "value": "#ABB8C3", "type": "color" },
+    "text/muted": { "value": "#666666", "type": "color" },
+    "border/subtle": { "value": "#FFFFFF14", "type": "color" },
+    "chart/cyan": { "value": "#4AEADC", "type": "color" },
+    "chart/blue": { "value": "#0693E3", "type": "color" },
+    "chart/amber": { "value": "#FCB900", "type": "color" },
+    "chart/purple": { "value": "#9B51E0", "type": "color" },
+    "chart/green": { "value": "#00D084", "type": "color" },
+    "chart/orange": { "value": "#FF6900", "type": "color" }
+  },
+  "typography": {
+    "display/h1": {
+      "fontFamily": "Bebas Neue",
+      "fontSize": "48px",
+      "lineHeight": "48px",
+      "letterSpacing": "2%",
+      "textCase": "uppercase"
+    },
+    "display/h2": {
+      "fontFamily": "Bebas Neue",
+      "fontSize": "28px",
+      "lineHeight": "28px",
+      "letterSpacing": "4%",
+      "textCase": "uppercase"
+    },
+    "kpi/number": {
+      "fontFamily": "Bebas Neue",
+      "fontSize": "44px",
+      "lineHeight": "44px"
+    },
+    "label/caps": {
+      "fontFamily": "Roboto",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "letterSpacing": "10%",
+      "textCase": "uppercase",
+      "color": "#ABB8C3"
+    },
+    "body/regular": {
+      "fontFamily": "Roboto",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px"
+    },
+    "nav/button": {
+      "fontFamily": "Roboto",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "letterSpacing": "8%",
+      "textCase": "uppercase"
+    }
+  },
+  "spacing": {
+    "sidebar/width": { "value": "220px" },
+    "main/padding": { "value": "40px 48px" },
+    "card/padding": { "value": "24px" },
+    "card/radius": { "value": "10px" },
+    "kpi/grid-gap": { "value": "16px" },
+    "chart/height": { "value": "280px" }
+  },
+  "layout": {
+    "frame/width": 1440,
+    "frame/height": 1024,
+    "pages": [
+      "01 Overview",
+      "02 Channels",
+      "03 Engagement",
+      "04 Portals",
+      "05 Funnel",
+      "06 Recommendations"
+    ]
+  },
+  "channelColors": {
+    "Meta": "#4AEADC",
+    "Google Search": "#FCB900",
+    "Google Display": "#0693E3",
+    "LinkedIn": "#9B51E0"
+  }
+}
